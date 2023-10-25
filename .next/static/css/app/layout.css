@@ -681,6 +681,9 @@ video {
 .animate-bounce {
   animation: bounce 1s infinite;
 }
+.cursor-pointer {
+  cursor: pointer;
+}
 .flex-col {
   flex-direction: column;
 }
