@@ -29,7 +29,7 @@ export default function Banner() {
             </div>
             <div
                 className="z-20 flex-col absolute bottom-4 left-0 flex w-full items-center justify-center gap-7 font-mono text-sm">
-                <span className={`${showLabel && 'hidden'} animate-bounce text-white text-2xl rotate-90`}>{`〰`}</span>
+                <span className={`${showLabel && 'hidden'} animate-bounce text-white text-2xl`}>{`〰`}</span>
             </div>
         </div>
     )
