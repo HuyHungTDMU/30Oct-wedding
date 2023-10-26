@@ -1,9 +1,7 @@
 'use client';
 
 import About from "@/app/components/about";
-import Story from "@/app/components/story";
 import Menu from "@/app/components/menu";
-import Gallery from "@/app/components/gallery";
 import Banner from "@/app/components/banner";
 import Event from "@/app/components/event";
 import {useRef} from "react";
@@ -60,11 +58,11 @@ export default function Home() {
             </div>
 
             <div ref={storyRef}>
-                <Story/>
+                {/*<Story/>*/}
             </div>
 
             <div ref={galleryRef}>
-                <Gallery/>
+                {/*<Gallery/>*/}
             </div>
 
             <div ref={eventRef}>
