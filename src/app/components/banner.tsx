@@ -25,7 +25,9 @@ export default function Banner() {
             <div
                 className="z-20 flex-col absolute bottom-16 left-0 flex w-full items-center justify-center gap-7 font-mono text-sm">
                     <span
-                        className='text-white text-xl'>{`🇼‌🇪‌🇩‌🇩‌🇮‌🇳‌🇬‌ 🇮‌🇳‌🇻‌🇮‌🇹‌🇦‌🇹‌🇮‌🇴‌🇳‌`}</span>
+                        className='sm:block hidden text-white text-center text-xl'>{`🇼‌🇪‌🇩‌🇩‌🇮‌🇳‌🇬‌ 🇮‌🇳‌🇻‌🇮‌🇹‌🇦‌🇹‌🇮‌🇴‌🇳‌`}</span>
+                <span
+                    className='sm:hidden text-white text-center text-xl'>{`🇼‌🇪‌🇩‌🇩‌🇮‌🇳‌🇬‌`}<br/>{`🇮‌🇳‌🇻‌🇮‌🇹‌🇦‌🇹‌🇮‌🇴‌🇳‌`}</span>
             </div>
             <div
                 className="z-20 flex-col absolute bottom-4 left-0 flex w-full items-center justify-center gap-7 font-mono text-sm">
