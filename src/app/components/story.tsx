@@ -4,12 +4,8 @@ export default function Story() {
             <h2 className='text-xl text-[#703B2B] uppercase'>STORY</h2>
             <span className='text-5xl text-[#703B2B] mt-2'>𝒪𝓊𝓇 ℒℴ𝓋ℯ 𝒮𝓉ℴ𝓇𝓎</span>
 
-            {/*<div className='space-y-7 mt-7'>*/}
-            {/*    <MotionSlideImage value={false}/>*/}
-            {/*</div>*/}
-
-            <div className='flex items-center gap-20 mt-20'>
-                <div className='flex flex-col border-r-2 border-[#703B2B] pr-20 gap-10 items-center'>
+            <div className='flex items-center sm:gap-20 gap-3 mt-20'>
+                <div className='flex flex-col border-r-2 border-[#703B2B] pr-3 sm:pr-20 gap-3 items-center'>
                     <div className='w-[170px] h-[170px] flex flex-col justify-center items-center'>
                         <span className='text-2xl font-bold text-[#703B2B] '>First Meet</span>
                         <span>Chillies Coffee</span>
@@ -22,7 +18,7 @@ export default function Story() {
                         alt='first-date'/>
 
                     <div className='w-[170px] h-[170px] flex flex-col justify-center items-center'>
-                        <span className='text-2xl font-bold text-[#703B2B]'>Love</span>
+                        <span className='text-2xl font-bold text-[#703B2B]'>Confess</span>
                         <span>Landmark 81</span>
                         <span>30/10/2022</span>
                     </div>
