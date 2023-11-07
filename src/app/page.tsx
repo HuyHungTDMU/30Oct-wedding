@@ -7,6 +7,7 @@ import Event from "@/app/components/event";
 import {useRef} from "react";
 import Gallery from "@/app/components/gallery";
 import Story from "@/app/components/story";
+import MusicPlayer from "@/app/components/music-player";
 
 export default function Home() {
     const bannerRef = useRef<HTMLDivElement>(null);
@@ -54,6 +55,10 @@ export default function Home() {
             <Menu scrollToBanner={scrollToBanner} scrollToGallery={scrollToGallery} scrollToAbout={scrollToAbout}
                   scrollToStory={scrollToStory}
                   scrollToEvent={scrollToEvent}/>
+
+            <div className='fixed bottom-2 left-2 z-50'>
+                <MusicPlayer src='/sound.mp3'/>
+            </div>
 
             <div ref={aboutRef}>
                 <About/>
