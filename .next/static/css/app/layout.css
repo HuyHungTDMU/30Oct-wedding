@@ -699,6 +699,9 @@ video {
 .max-w-lg {
   max-width: 32rem;
 }
+.max-w-2xl {
+  max-width: 42rem;
+}
 @keyframes bounce {
 
   0%, 100% {

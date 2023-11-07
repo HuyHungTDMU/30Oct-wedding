@@ -95,7 +95,8 @@ export default function Gallery() {
 
             <div className='flex flex-col items-center gap-4 my-7'>
                 <div className='w-screen p-4 bg-[#fff] flex justify-center items-center'>
-                    <img src={selectedImage} alt="Main Image" className='rounded h-[500px] object-cover object-center'/>
+                    <img src={selectedImage} alt="Main Image"
+                         className='rounded w-full max-w-2xl object-cover object-center'/>
                 </div>
 
                 <div
