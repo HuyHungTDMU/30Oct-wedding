@@ -6,7 +6,7 @@ export default function Event() {
 
             <div className='flex items-center sm:gap-20 gap-3 mt-20'>
                 <div className='flex flex-col border-r-2 border-[#703B2B] pr-3 sm:pr-20 gap-3'>
-                    <span className='text-2xl font-bold text-[#703B2B] '>Lễ hỏi</span>
+                    <span className='text-2xl font-bold text-[#703B2B] '>Lễ Đính Hôn</span>
                     <span>Tư gia nhà gái</span>
                     <span>3/11/2023</span>
 

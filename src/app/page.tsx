@@ -5,6 +5,8 @@ import Menu from "@/app/components/menu";
 import Banner from "@/app/components/banner";
 import Event from "@/app/components/event";
 import {useRef} from "react";
+import Gallery from "@/app/components/gallery";
+import Story from "@/app/components/story";
 
 export default function Home() {
     const bannerRef = useRef<HTMLDivElement>(null);
@@ -58,11 +60,11 @@ export default function Home() {
             </div>
 
             <div ref={storyRef}>
-                {/*<Story/>*/}
+                <Story/>
             </div>
 
             <div ref={galleryRef}>
-                {/*<Gallery/>*/}
+                <Gallery/>
             </div>
 
             <div ref={eventRef}>
