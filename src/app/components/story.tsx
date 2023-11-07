@@ -5,7 +5,7 @@ export default function Story() {
             <span className='text-5xl text-[#703B2B] mt-2'>𝒪𝓊𝓇 ℒℴ𝓋ℯ 𝒮𝓉ℴ𝓇𝓎</span>
 
             <div className='flex items-center sm:gap-20 gap-3 mt-20'>
-                <div className='flex flex-col border-r-2 border-[#703B2B] pr-3 sm:pr-20 gap-3 items-center'>
+                <div className='flex flex-col border-r-2 border-[#703B2B] pr-3 sm:pr-20 gap-10 items-center'>
                     <div className='w-[170px] h-[170px] flex flex-col justify-center items-center'>
                         <span className='text-2xl font-bold text-[#703B2B] '>First Meet</span>
                         <span>Chillies Coffee</span>
