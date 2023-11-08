@@ -32,6 +32,7 @@ export default function Event() {
                         </div>
                     </div>
                 </div>
+
                 <div className='flex flex-col'>
                     <div
                         className='bg-[#EAE7D6] shadow items-center justify-center h-[200px] rounded-xl text-[#703B2B] flex flex-col w-full gap-1 px-3'>
