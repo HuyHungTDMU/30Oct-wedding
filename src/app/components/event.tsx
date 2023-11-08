@@ -10,11 +10,11 @@ export default function Event() {
                         className='bg-[#EAE7D6] shadow rounded-xl items-center justify-center h-[200px] text-[#703B2B] flex flex-col w-full gap-1 px-3'>
                         <span className='text-2xl font-bold'>Lễ Đính Hôn</span>
                         <span>Tư gia nhà gái</span>
-                        <div className='grid grid-cols-2 mt-2'>
+                        <div className='grid grid-cols-2 mt-2 text-sm'>
                             <span> 🕓</span>
                             <span> 🗓</span>
                             <span>09:00</span>
-                            <span>3/11/2023</span>
+                            <span>03/11/2023</span>
                         </div>
                     </div>
 
@@ -23,7 +23,7 @@ export default function Event() {
                             className='bg-[#EAE7D6] shadow text-[#703B2B] items-center justify-center h-[200px] rounded-xl flex flex-col gap-1 px-3'>
                             <span className='text-2xl font-bold'>Lễ Thành Hôn</span>
                             <span>Tư gia nhà trai</span>
-                            <div className='grid grid-cols-2 mt-2'>
+                            <div className='grid grid-cols-2 mt-2 text-sm'>
                                 <span> 🕓</span>
                                 <span> 🗓</span>
                                 <span>07:00</span>
@@ -38,11 +38,11 @@ export default function Event() {
                         <span className='text-2xl font-bold'>Lễ Vu Quy</span>
                         <a target="_blank" className='' href='https://maps.app.goo.gl/oBGvtsu44tH7za7x7'>Nhà Hàng Ngọc
                             Trâm ⤴️</a>
-                        <div className='grid grid-cols-2 mt-2'>
+                        <div className='grid grid-cols-2 mt-2 text-sm'>
                             <span> 🕓</span>
                             <span> 🗓</span>
                             <span>11:00</span>
-                            <span>23-12-2023</span>
+                            <span>23/12/2023</span>
                         </div>
                     </div>
                 </div>
