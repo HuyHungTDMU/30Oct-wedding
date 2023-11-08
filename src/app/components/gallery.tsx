@@ -79,7 +79,7 @@ export default function Gallery() {
             const currentIndex = images.findIndex((item) => item.original === selectedImage);
             const nextIndex = (currentIndex + 1) % images.length;
             setSelectedImage(images[nextIndex].original);
-        }, 3000);
+        }, 3700);
 
         return () => clearInterval(interval);
     }, [images, selectedImage]);
@@ -106,7 +106,7 @@ export default function Gallery() {
                             key={index}
                             src={image.thumbnail}
                             alt={`Thumbnail ${index + 1}`}
-                            className='h-[40px] xl:h-[50px] object-center object-cover rounded'
+                            className={`${selectedImage === image.original && 'opacity-100'} opacity-30 h-[40px] xl:h-[50px] object-center object-cover rounded`}
                             onClick={() => changeImage(image.original)}
                         />
                     ))}

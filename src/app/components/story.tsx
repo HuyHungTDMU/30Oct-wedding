@@ -9,7 +9,7 @@ export default function Story() {
                     <div className='w-[170px] h-[170px] flex flex-col justify-center items-center'>
                         <span className='text-2xl font-bold text-[#703B2B] '>First Meet</span>
                         <span>Chillies Coffee</span>
-                        <span>__/__/2020</span>
+                        <span>10/2020</span>
                     </div>
 
                     <img
