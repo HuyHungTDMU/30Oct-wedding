@@ -37,7 +37,7 @@ export default function Event() {
                         className='bg-[#EAE7D6] shadow items-center justify-center h-[200px] rounded-xl text-[#703B2B] flex flex-col w-full gap-1 px-3'>
                         <span className='text-2xl font-bold'>Lễ Vu Quy</span>
                         <a target="_blank" className='' href='https://maps.app.goo.gl/oBGvtsu44tH7za7x7'>Nhà Hàng Ngọc
-                            Trâm 🗺️</a>
+                            Trâm ⤴️</a>
                         <div className='grid grid-cols-2 mt-2'>
                             <span> 🕓</span>
                             <span> 🗓</span>
