@@ -3,11 +3,9 @@ export default function About() {
         <div className="mt-36 flex text-center flex-col justify-center items-center px-2">
             <h2 className='text-xl text-[#703B2B] uppercase'>About</h2>
             <span className='text-5xl text-[#703B2B] mt-2'>𝒢𝓇ℴℴ𝓂 & ℬ𝓇𝒾𝒹ℯ</span>
-
-            <div className='flex-col flex items-center justify-center gap-2 sm:gap-10 mt-10'>
+            <span className='text-[#703B2B] sm:hidden sm:pb-16 mt-10 text-2xl'>˚ʚ♡ɞ˚</span>
+            <div className='flex-row flex items-center justify-center gap-2 sm:gap-10 sm:mt-10'>
                 <div className='flex flex-col gap-2 items-center justify-center'>
-                    <span className='sm:hidden text-[#703B2B] text-2xl mt-3'>Huy Hùng</span>
-                    <span className='sm:hidden text-cyan-800 text-base'>🤵🏻‍The Groom</span>
                     <img
                         className='w-40 h-40 rounded-full object-cover object-center border border-dashed p-1 border-[#703B2B]'
                         src='/groom.png' alt='groom'/>
