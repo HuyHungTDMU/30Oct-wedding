@@ -4,7 +4,7 @@ export default function About() {
             <h2 className='text-xl text-[#703B2B] uppercase'>About</h2>
             <span className='text-5xl text-[#703B2B] mt-2'>𝒢𝓇ℴℴ𝓂 & ℬ𝓇𝒾𝒹ℯ</span>
 
-            <div className='sm:flex-row flex-col flex items-center justify-center gap-3 sm:gap-10 mt-10'>
+            <div className='flex-col flex items-center justify-center gap-2 sm:gap-10 mt-10'>
                 <div className='flex flex-col gap-2 items-center justify-center'>
                     <span className='sm:hidden text-[#703B2B] text-2xl mt-3'>Huy Hùng</span>
                     <span className='sm:hidden text-cyan-800 text-base'>🤵🏻‍The Groom</span>
@@ -15,7 +15,7 @@ export default function About() {
                     <span className='hidden sm:block text-[#703B2B] text-2xl mt-3'>Huy Hùng</span>
                 </div>
 
-                <span className='text-[#703B2B] sm:pb-16 text-2xl'>˚ʚ♡ɞ˚</span>
+                <span className='text-[#703B2B] hidden sm:block sm:pb-16 text-2xl'>˚ʚ♡ɞ˚</span>
 
                 <div className='flex flex-col gap-2 items-center justify-center'>
                     <img
