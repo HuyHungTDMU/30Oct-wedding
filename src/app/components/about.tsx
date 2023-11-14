@@ -9,8 +9,8 @@ export default function About() {
                     <img
                         className='w-40 h-40 rounded-full object-cover object-center border border-dashed p-1 border-[#703B2B]'
                         src='/groom.png' alt='groom'/>
-                    <span className='hidden sm:block text-cyan-800 text-base'>🤵🏻‍The Groom</span>
-                    <span className='hidden sm:block text-[#703B2B] text-2xl mt-3'>Huy Hùng</span>
+                    <span className='text-cyan-800 text-base'>🤵🏻‍The Groom</span>
+                    <span className='text-[#703B2B] text-2xl mt-3'>Huy Hùng</span>
                 </div>
 
                 <span className='text-[#703B2B] hidden sm:block sm:pb-16 text-2xl'>˚ʚ♡ɞ˚</span>
