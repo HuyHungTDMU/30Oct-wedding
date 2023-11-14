@@ -20,7 +20,7 @@ export default function About() {
                         className='w-40 h-40 rounded-full object-cover object-center border border-dashed p-1 border-[#703B2B]'
                         src='/bride.png' alt='bride'/>
                     <span className='text-cyan-800 text-base'>👰🏻‍The Bride</span>
-                    <span className='text-[#703B2B] text-2xl sm:mt-3'>Thiên Kiều</span>
+                    <span className='text-[#703B2B] text-2xl mt-3'>Thiên Kiều</span>
                 </div>
             </div>
         </div>
