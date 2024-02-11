@@ -28,6 +28,7 @@ export default function Story() {
                         src='/propose.png'
                         alt='first-meet'/>
                 </div>
+                
                 <div className='flex flex-col gap-10'>
                     <img
                         className='object-center border transition duration-300 ease-in-out border-[#703B2B] object-cover w-[170px] h-[170px] rounded-xl'
